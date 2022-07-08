@@ -1,0 +1,136 @@
+
+  
+  body {
+    background-color: blanchedalmond;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h2 {
+    width: 300px;
+    margin: 30px auto;
+    text-align: center;
+  }
+  
+  p {
+    margin: 0;
+  }
+  
+  header {
+    background-color: bisque;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid black;
+  }
+  
+  header ul {
+    padding: 0;
+    margin: 0 auto;
+    display: flex;
+    width: 1000px;
+    justify-content: space-around;
+    list-style-type: none;
+  }
+  
+  a,
+  a:hover,
+  a:active {
+    text-decoration: none;
+    color: black;
+    font-size: 24px;
+  }
+  
+  a:hover {
+    font-weight: 700;
+  }
+  
+  main {
+    width: 1000px;
+    padding-bottom: 30px;
+  
+    font-size: 18px;
+  
+    background-color: bisque;
+  }
+  
+  .me {
+    margin-bottom: 30px;
+  }
+  
+  .my-name {
+    margin: auto;
+    padding: 30px 0;
+    width: 400px;
+  
+    text-align: center;
+  }
+  
+  .my-education p,
+  .my-english-lvl p,
+  .about-me p {
+    padding: 0 40px;
+  }
+  
+  .my-english-lvl p,
+  .my-education p {
+    width: 200px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .my-photo {
+    background-image: url(./rs.jpg);
+    width: 400px;
+    height: 500px;
+    margin: auto;
+  
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .skills-list {
+    padding: 0;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+  }
+  
+  .skills-list li {
+    width: 150px;
+    height: 150px;
+  
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+  }
+  
+  .c {
+    
+  }
+  
+  .qt {
+    
+  }
+  
+  .git {
+    
+  }
+  
+  .code-example pre {
+    width: 300px;
+    margin: 0 auto;
+  }
+  
+  footer {
+    background-color: bisque;
+    font-weight: 700;
+  
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: 1px solid black;
+  }
